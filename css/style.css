@@ -91,7 +91,7 @@ p.link {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    color: #fff;
+    color: #999;
     padding: 5px 10px;
     margin: 0 5px;
     background-color: darken($tabs-base-color, 15);
