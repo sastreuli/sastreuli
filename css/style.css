@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  font: 14px/1 'Open Sans', sans-serif;
+  font: 14px/1 'arial', sans-serif;
   color: #555;
   background: #eee;
 }
@@ -54,7 +54,7 @@ label {
 }
 
 label:before {
-  font-family: fontawesome;
+  font-family: arial;
   font-weight: normal;
   margin-right: 10px;
 }
@@ -62,7 +62,6 @@ label:before {
 label[for*='1']:before { content: '\f1cb'; }
 label[for*='2']:before { content: '\f17d'; }
 label[for*='3']:before { content: '\f16b'; }
-label[for*='4']:before { content: '\f1a9'; }
 
 label:hover {
   color: #888;
@@ -79,7 +78,7 @@ input:checked + label {
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
-#tab4:checked ~ #content4 {
+{
   display: block;
 }
 
